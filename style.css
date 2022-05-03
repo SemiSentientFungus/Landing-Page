@@ -1,9 +1,18 @@
+body {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
 .header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-left: 300px;
-    margin-right: 300px;
+    
 }
 
 ul {
@@ -12,4 +21,20 @@ ul {
     flex-direction: row;
     gap: 10px;
     margin: 0px;
+}
+
+.headercontent {
+    display: flex;
+}
+
+.title {
+    flex: 1 1 0%;
+    flex-wrap: wrap;
+}
+
+.placeholder {
+    flex: 1 1 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
