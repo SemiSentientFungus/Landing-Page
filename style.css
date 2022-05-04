@@ -82,4 +82,37 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 300px 0 300px;
+}
+
+.info {
+    font-weight: bold;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 25px 0 25px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.quart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.image {
+    border: 2px solid #3992F6;
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+    align-self: center;
+}
+
+.text {
+    text-align: center;
 }
