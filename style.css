@@ -96,6 +96,7 @@ ul {
     display: flex;
     justify-content: center;
     gap: 50px;
+    flex-shrink: 1;
 }
 
 .quart {
@@ -115,4 +116,33 @@ ul {
 
 .text {
     text-align: center;
+}
+
+.contentbottom {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 300px 100px 300px;
+}
+
+.quote {
+    font-size: 36px;
+}
+
+.attribute {
+    text-align: right;
+    font-weight: bold;
+}
+
+.bottom {
+    display: flex;
+}
+
+.call {
+    display: flex;
+}
+
+.footer{
+    background-color: #1F2937;
 }
